@@ -10,7 +10,7 @@ module.exports = {
                 slide: "url('/assets/images/Rectangle 1.png')",
                 shadow1: "url('/assets/images/shadow1.png')",
                 shadow2: "url('/assets/images/shadow2.png')",
-                green: "url('/assets/images/bg-green.png')",
+                green: "url('/assets/images/bggreen.png')",
             }),
             height: (theme) => ({
                 logo: "91px",
