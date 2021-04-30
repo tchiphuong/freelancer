@@ -7,13 +7,14 @@ module.exports = {
         },
         extend: {
             backgroundImage: (theme) => ({
-                slide: "url('/assets/images/Rectangle 1.png')",
-                shadow1: "url('/assets/images/shadow1.png')",
-                shadow2: "url('/assets/images/shadow2.png')",
+                slide: "url('assets/images/Rectangle 1.png')",
+                shadow1: "url('assets/images/shadow1.png')",
+                shadow2: "url('assets/images/shadow2.png')",
                 green: "url('https://i.imgur.com/1l7fZNe.png')",
             }),
             height: (theme) => ({
                 logo: "91px",
+                wlogo: "118px",
                 lglogo: "181px",
                 slider: "540px",
                 sliderlinear: "526px",
@@ -26,6 +27,7 @@ module.exports = {
             }),
             width: (theme) => ({
                 logo: "91px",
+                wlogo: "118px",
                 lglogo: "181px",
                 slider: "1244px",
                 footer: "1366px",
@@ -55,6 +57,8 @@ module.exports = {
             }),
         },
     },
+    plugins: [
+        require('@tailwindcss/aspect-ratio'),
+      ],
     variants: {},
-    plugins: [],
 };
