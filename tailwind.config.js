@@ -7,9 +7,9 @@ module.exports = {
         },
         extend: {
             backgroundImage: (theme) => ({
-                slide: "url('assets/images/Rectangle 1.png')",
-                shadow1: "url('assets/images/shadow1.png')",
-                shadow2: "url('assets/images/shadow2.png')",
+                slide: "url('/assets/images/Rectangle 1.png')",
+                shadow1: "url('/assets/images/shadow1.png')",
+                shadow2: "url('/assets/images/shadow2.png')",
                 green: "url('https://i.imgur.com/1l7fZNe.png')",
             }),
             height: (theme) => ({
